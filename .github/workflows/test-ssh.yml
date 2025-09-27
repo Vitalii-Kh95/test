@@ -20,4 +20,4 @@ jobs:
 
       - name: Run command on server
         run: |
-          ssh -i ~/.ssh/id_ed25519 ec2-user@your-server-ip 'echo "GitHub Actions connected successfully!"'
+          ssh -i ~/.ssh/id_ed25519 bitnami@3.124.243.224 'echo "GitHub Actions connected successfully!"'
